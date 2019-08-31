@@ -11,7 +11,7 @@ public class ExtendFunctionality implements WebDriverEventListener {
 	@Override
 	public void afterAlertAccept(WebDriver arg0) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("abcd");
 	}
 
 	@Override
@@ -21,7 +21,7 @@ public class ExtendFunctionality implements WebDriverEventListener {
 	}
 
 	@Override
-	public void afterChangeValueOf(WebElement arg0, WebDriver arg1, CharSequence[] arg2) {
+	public void afterChangeValueOf(WebElement hello1, WebDriver arg1, CharSequence[] arg2) {
 		// TODO Auto-generated method stub
 		
 	}
